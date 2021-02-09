@@ -1,0 +1,94 @@
+/* --------------------- *\
+        GENERALES
+\* --------------------- */
+
+.text-next {
+    color: #97c93e !important;
+}
+
+.btn-next {
+    background-color: #97c93c;
+}
+.btn-next:hover {
+    background-color: #82ad36;
+}
+
+/* --------------------- *\
+        ENCABEZADO
+\* --------------------- */
+
+.nextb-logo {
+    width: 19px;
+    height: 19px;
+    transform: rotate(45deg);
+    align-self: center;
+}
+
+    .logo-top {
+        width: 80%;
+        height: 60%;
+   
+        position: relative;
+        top: 1px;
+    }
+    
+    .logo-bottom {
+        width: 100%;
+        height: 40%;
+    }
+
+/* --------------------- *\
+           HERO
+\* --------------------- */
+
+#hero-carousel img {
+    height: 70vh;
+    object-fit: cover;
+    filter: grayscale(70%);
+}
+
+.capa-hero {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.capa-hero .container,
+.container .row {
+    height: 50%;
+}
+
+/* --------------------- *\
+      LUGAR Y FECHA
+\* --------------------- */
+
+#seccion-fecha {
+    color: white;
+    background-color: #030303;
+}
+
+#seccion-fecha img {
+    width: 100%;
+   
+    object-fit: cover;
+}
+
+/* --------------------- *\
+      PIE DE PAGINA
+\* --------------------- */
+
+#footer {
+    background: linear-gradient(90deg, #1c3643, #273b47 25%, #1e5372);
+}
+
+#footer a {
+    color: white;
+}
+
+.navbar .navbar-brand {
+    display: flex;
+}
